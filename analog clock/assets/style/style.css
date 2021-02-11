@@ -16,10 +16,10 @@
 
 #hour {
     height: 150px;
-    width: 10px;
+    width: 9px;
     background-color: green;
     position: absolute;
-    right: 300px;
+    left: 290px;
     top: 180px
 }
 
@@ -28,8 +28,8 @@
     width: 7px;
     background-color: red;
     position: absolute;
-    right: 300px;
-    top: 140px
+    left: 290px;
+    top: 150px;
 }
 
 #second {
@@ -37,7 +37,7 @@
     width: 5px;
     background-color: yellow;
     position: absolute;
-    right: 300px;
+    left: 293px;
     top: 130px;
 }
 
