@@ -1,4 +1,4 @@
-/* .clock-wrapper {
+.clock-wrapper {
     width: 600px;
     height: 600px;
     background: url('../img/clock.png') no-repeat center;
@@ -31,4 +31,4 @@
     background: rgba(0, 183, 255, 0.459);
     z-index: 20;
     transform: rotate(40deg);
-} */
+}
