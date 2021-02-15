@@ -19,7 +19,7 @@ function rotateHands(){
     minuteHand.style.transform = `rotateZ(${minute*6}deg)`
     hourHand.style.transform = `rotateZ(${(hour*30 + minute*0.5)}deg)`
 
-    console.log(`Seconds: ${sec}`)
-    console.log(`Minutes: ${minute}`)
-    console.log(`Hours: ${hour}`)
+    // console.log(`Seconds: ${sec}`)
+    // console.log(`Minutes: ${minute}`)
+    // console.log(`Hours: ${hour}`)
 }
