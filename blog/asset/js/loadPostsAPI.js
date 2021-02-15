@@ -4,7 +4,7 @@ const postDiv3 = document.getElementById('thePosts');
 //Load Every thing ....
 document.addEventListener("DOMContentLoaded", () => {
     //load_fromPlaceHolder();
-    loadDataNew();
+    setTimeout(loadDataNew(),3000);
 });
 
 
