@@ -21,7 +21,6 @@ function loadPosts() {
             const posts = JSON.parse(this.responseText);
 
             let output = '';
-            console.log(posts)
             posts.forEach(post => {
 
                 // Creating the UI by concatenation
