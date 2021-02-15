@@ -8,7 +8,7 @@ makeImage()
 function generateUrl(){
     let urlList = []
     for (let i = 0; i < imageNumber; i++) {
-        urlList.push(`https://picsum.photos/id/${Math.floor(Math.random()*1000)+1}/1400/800`);
+        urlList.push(`https://picsum.photos/id/${Math.floor(Math.random() * (1083 - 0) ) + 0}/1400/800`);
     }
     return urlList
 }
