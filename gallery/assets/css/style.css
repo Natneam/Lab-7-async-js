@@ -1,0 +1,12 @@
+.snap-x {
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.snap-start {
+  scroll-snap-align: start;
+}
+
+.img{
+    width: 90%;
+    height: 100%;
+}
