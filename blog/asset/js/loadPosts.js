@@ -54,7 +54,7 @@ function loadPosts() {
 
 
             // Assign it to the DIV
-            postDiv2.innerHTML = output;
+            setTimeout(_=>{postDiv2.innerHTML = output;}, 1000)
         }
     }
 
